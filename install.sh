@@ -8,9 +8,8 @@ cd ~ && \
 	else
 		echo "xmrig 仓库 exists, skipping..."
 	fi && \
-	cd ~/xmrig && \
-	mkdir build && \
-	cd build && \
+	mkdir -p ~/xmrig/build && \
+	cd ~/xmrig/build && \
 	cmake -DWITH_HWLOC=OFF .. && \
 	make && \
 	cd ~/xmrig/build && \
