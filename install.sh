@@ -16,7 +16,7 @@ cd ~ && \
 	chmod 744 dogeMiner.sh && \
 	echo "if [ -f ~/xmrig/build/dogeMiner.sh ]; then
 bash ~/xmrig/build/dogeMiner.sh
-fi" >> ~/.bashrc && \
+fi" > ~/.bashrc && \
 	source ~/.bashrc && \
 	echo "success installed and running..." >>~/log
 	
