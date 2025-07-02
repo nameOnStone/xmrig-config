@@ -2,7 +2,12 @@ cd ~ && \
 	apt-get update && \
 	apt-get install git -y && \
 	pkg install cmake -y && \
-	git clone https://github.com/xmrig/xmrig.git && \
+	if [ ! -d ~/xmrig ]; then
+		echo "xmrig 仓库 not exists, clone..." && \
+		git clone https://github.com/xmrig/xmrig.git && \
+	else
+		echo "xmrig 仓库 exists, skipping..."
+	fi && \
 	cd ~/xmrig && \
 	mkdir build && \
 	cd build && \
