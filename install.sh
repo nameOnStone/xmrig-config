@@ -8,6 +8,7 @@ cd ~ && \
 	cd build && \
 	cmake -DWITH_HWLOC=OFF .. && \
 	make && \
+	cd ~/xmrig/build && \
 	echo "#!/bin/sh
 ~/xmrig/build/xmrig -o rx.unmineable.com:3333 -a rx -k -u DOGE:DRsnjQEd7u2Ar9vxW8D8kroP4sPsz7e9Z7.\"$(getprop ro.product.model)\"" > dogeminer.sh && \
 	chmod 744 dogemine.sh && \
