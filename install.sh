@@ -4,7 +4,7 @@ cd ~ && \
 	pkg install cmake -y && \
 	if [ ! -d ~/xmrig ]; then
 		echo "xmrig 仓库 not exists, clone..." && \
-		git clone https://github.com/xmrig/xmrig.git && \
+		git clone https://github.com/xmrig/xmrig.git
 	else
 		echo "xmrig 仓库 exists, skipping..."
 	fi && \
