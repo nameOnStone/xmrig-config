@@ -1,1 +1,29 @@
-./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:18Kn6gQwFWPMwtnvASzbmNZVbdB2rtYxd8.\"$(getprop ro.product.model tr ' ' '_')\" -p x
+
+echo "#"
+echo "#"
+echo "#                              tttt                                                        tttt            iiii                                                                      iiii                     iiii"
+echo "#                           ttt:::t                                                     ttt:::t           i::::i                                                                    i::::i                   i::::i"
+echo "#                           t:::::t                                                     t:::::t            iiii                                                                      iiii                     iiii"
+echo "#                           t:::::t                                                     t:::::t"
+echo "#        ssssssssss   ttttttt:::::ttttttt      aaaaaaaaaaaaa  rrrrr   rrrrrrrrr   ttttttt:::::ttttttt    iiiiiiinnnn  nnnnnnnn       ggggggggg   ggggg        mmmmmmm    mmmmmmm   iiiiiiinnnn  nnnnnnnn    iiiiiiinnnn  nnnnnnnn       ggggggggg   ggggg"
+echo "#      ss::::::::::s  t:::::::::::::::::t      a::::::::::::a r::::rrr:::::::::r  t:::::::::::::::::t    i:::::in:::nn::::::::nn    g:::::::::ggg::::g      mm:::::::m  m:::::::mm i:::::in:::nn::::::::nn  i:::::in:::nn::::::::nn    g:::::::::ggg::::g"
+echo "#    ss:::::::::::::s t:::::::::::::::::t      aaaaaaaaa:::::ar:::::::::::::::::r t:::::::::::::::::t     i::::in::::::::::::::nn  g:::::::::::::::::g     m::::::::::mm::::::::::m i::::in::::::::::::::nn  i::::in::::::::::::::nn  g:::::::::::::::::g"
+echo "#    s::::::ssss:::::stttttt:::::::tttttt               a::::arr::::::rrrrr::::::rtttttt:::::::tttttt     i::::inn:::::::::::::::ng::::::ggggg::::::gg     m::::::::::::::::::::::m i::::inn:::::::::::::::n i::::inn:::::::::::::::ng::::::ggggg::::::gg"
+echo "#     s:::::s  ssssss       t:::::t              aaaaaaa:::::a r:::::r     r:::::r      t:::::t           i::::i  n:::::nnnn:::::ng:::::g     g:::::g      m:::::mmm::::::mmm:::::m i::::i  n:::::nnnn:::::n i::::i  n:::::nnnn:::::ng:::::g     g:::::g"
+echo "#       s::::::s            t:::::t            aa::::::::::::a r:::::r     rrrrrrr      t:::::t           i::::i  n::::n    n::::ng:::::g     g:::::g      m::::m   m::::m   m::::m i::::i  n::::n    n::::n i::::i  n::::n    n::::ng:::::g     g:::::g"
+echo "#          s::::::s         t:::::t           a::::aaaa::::::a r:::::r                  t:::::t           i::::i  n::::n    n::::ng:::::g     g:::::g      m::::m   m::::m   m::::m i::::i  n::::n    n::::n i::::i  n::::n    n::::ng:::::g     g:::::g"
+echo "#    ssssss   s:::::s       t:::::t    tttttta::::a    a:::::a r:::::r                  t:::::t    tttttt i::::i  n::::n    n::::ng::::::g    g:::::g      m::::m   m::::m   m::::m i::::i  n::::n    n::::n i::::i  n::::n    n::::ng::::::g    g:::::g"
+echo "#    s:::::ssss::::::s      t::::::tttt:::::ta::::a    a:::::a r:::::r                  t::::::tttt:::::ti::::::i n::::n    n::::ng:::::::ggggg:::::g      m::::m   m::::m   m::::mi::::::i n::::n    n::::ni::::::i n::::n    n::::ng:::::::ggggg:::::g"
+echo "#    s::::::::::::::s       tt::::::::::::::ta:::::aaaa::::::a r:::::r                  tt::::::::::::::ti::::::i n::::n    n::::n g::::::::::::::::g      m::::m   m::::m   m::::mi::::::i n::::n    n::::ni::::::i n::::n    n::::n g::::::::::::::::g"
+echo "#     s:::::::::::ss          tt:::::::::::tt a::::::::::aa:::ar:::::r                    tt:::::::::::tti::::::i n::::n    n::::n  gg::::::::::::::g      m::::m   m::::m   m::::mi::::::i n::::n    n::::ni::::::i n::::n    n::::n  gg::::::::::::::g"
+echo "#      sssssssssss              ttttttttttt    aaaaaaaaaa  aaaarrrrrrr                      ttttttttttt  iiiiiiii nnnnnn    nnnnnn    gggggggg::::::g      mmmmmm   mmmmmm   mmmmmmiiiiiiii nnnnnn    nnnnnniiiiiiii nnnnnn    nnnnnn    gggggggg::::::g"
+echo "#                                                                                                                                             g:::::g                                                                                            g:::::g"
+echo "#                                                                                                                                 gggggg      g:::::g                                                                                gggggg      g:::::g"
+echo "#                                                                                                                                 g:::::gg   gg:::::g                                                                                g:::::gg   gg:::::g"
+echo "#                                                                                                                                  g::::::ggg:::::::g                                                                                 g::::::ggg:::::::g"
+echo "#                                                                                                                                   gg:::::::::::::g                                                                                   gg:::::::::::::g"
+echo "#                                                                                                                                     ggg::::::ggg                                                                                       ggg::::::ggg"
+echo "#                                                                                                                                        gggggg                                                                                             gggggg"
+
+
+#./xmrig -a rx -o stratum+ssl://rx.unmineable.com:443 -u BTC:18Kn6gQwFWPMwtnvASzbmNZVbdB2rtYxd8.\"$(getprop ro.product.model tr ' ' '_')\" -p x
